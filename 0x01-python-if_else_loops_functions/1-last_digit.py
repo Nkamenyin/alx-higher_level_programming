@@ -3,7 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 last_dgit = abs(number) % 10
 
-print("Last digit of", number, "is", last_dgit)
+print("Last digit of {:d}" .format(number), "is {:d}" .format(last_dgit))
 
 if last_dgit > 5:
     print(f"and is greater than 5")
