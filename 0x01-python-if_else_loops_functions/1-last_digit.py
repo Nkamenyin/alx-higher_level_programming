@@ -7,7 +7,9 @@ if number < 0:
 else:
     last_dgit = number % 10
 
-print("Last digit of", number, "is", last_dgit)
+print("Last digit of {:d} is {:d}".format(number, last_dgit))
+
+#print("Last digit of {:d} is {:d} and is greater than 5".format(number, lastdigit))
 
 if last_dgit > 5:
     print(f"and is greater than 5")
