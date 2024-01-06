@@ -12,8 +12,8 @@ print("Last digit of {:d} is {:d}".format(number, last_dgit))
 #print("Last digit of {:d} is {:d} and is greater than 5".format(number, lastdigit))
 
 if last_dgit > 5:
-    print(f"and is greater than 5")
+    print("and is greater than 5")
 elif last_dgit == 0:
-    print(f"and is 0")
+    print("and is 0")
 else:
-    print(f"and is less than 6 and not 0")
+    print("and is less than 6 and not 0")
