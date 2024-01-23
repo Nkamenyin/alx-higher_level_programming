@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Suare module"""
+"""class is called Suare."""
 
 class Square:
-    """Define square"""
+    """Defines a Square"""
 
     def __init__(self,size):
         """constructor"""
