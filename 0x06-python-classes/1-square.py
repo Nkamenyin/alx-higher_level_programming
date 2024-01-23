@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""class is called Suare."""
+"""class is called Square."""
 
 class Square:
     """Defines a Square"""
@@ -7,5 +7,6 @@ class Square:
     def __init__(self,size):
         """constructor
 
-        size is the lenght on side if Square"""
+        Args:
+            size: size is the lenght of side if Square"""
         self.Square_size = size
